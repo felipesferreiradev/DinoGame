@@ -18,6 +18,7 @@ function jump() {
         if (position >= 150) {
             clearInterval(upInterval);
 
+            
         //Descendo
         let downInterval = setInterval(() => {
             if (position <= 0) {
